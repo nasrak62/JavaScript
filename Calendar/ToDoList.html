@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="ToDoStyle.css">
+    <title>Todo List</title>
+</head>
+<body>
+    <header>
+        <h1>Things To Do</h1>
+        <div class="break">
+            
+        </div>
+        <h2 id="TodayDate"></h2>
+        
+    </header>
+    <form>
+        <input type="text" class="ToDoInput">
+        <button class="ToDoButton" type="submit">
+            <i class="fas fa-plus-square"></i>
+        </button>
+        <div class="select">
+            <select name="ToDos" class="FilterToDo">
+                <option value="all">All</option>
+                <option value="completed">Completed</option>
+                <option value="uncompleted">Uncompleted</option>
+            </select>
+        </div>
+    </form>
+    <div class="ToDoContainer">
+        <ul class="ToDoActualList">
+            
+        </ul>
+    </div>
+
+    <footer>
+        <button class="GoBackToCalendar" type="submit">
+            <i class="fas fa-arrow-circle-left"></i>
+        </button>
+
+    </footer>
+    
+
+    <script src="./ToDoList.js"></script>
+</body>
+</html>

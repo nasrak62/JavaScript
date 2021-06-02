@@ -1,0 +1,32 @@
+<html>
+	<head>
+		<title>Saar Cool Website</title>
+	</head>
+	<body>
+		<h1 id="header1">Log In</h1>
+			<input type="text" id="input1"/>
+			<button onclick="Red()">Red</button>
+			<button onclick="Green()">Green</button>
+			<button onclick="GetUserName()">Log In</button>
+			<p id="UserNameOutput"></p>
+			<script type="text/javascript">
+				var UserName
+				function Red(){
+					document.getElementById("header1").style.color="Red"
+				}
+				function GetUserName(){
+					UserName=document.getElementById("input1").value
+					document.getElementById("UserNameOutput").innerHTML="logged in as "+UserName
+				}
+				function Green(){
+					document.getElementById("header1").style.color="Green"
+				}
+				if(false){
+
+				}
+				
+				
+
+			</script>
+	</body>
+</html>
