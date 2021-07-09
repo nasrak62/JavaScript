@@ -1,0 +1,120 @@
+html {
+    background-image: url("https://media1.tenor.com/images/80154f7682ee82cc60173b9d175cb0a1/tenor.gif?itemid=20659880");
+    content: "";
+    
+    top: 0; 
+    left: 0; 
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow-y: scroll;
+  }
+  
+  .container {
+    background-size: 100%;
+    background-repeat: repeat x-y;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+  }
+  .header, #main {
+    background: rgba(0, 0, 0, 0.5);
+    width: 50%;
+    height: 50%;
+    margin: auto;
+  }
+  .SeeText {
+    color: white;
+  }
+  .CenterText {
+    text-align: center;
+  }
+  #description {
+    font-size: 1.3em;
+  }
+  .border-radius{
+    border-radius: 0.25rem; 
+  }
+  
+  label, #select-paragraph{
+      display: flex;
+      align-items: center;
+      font-size: 1.4rem;
+      padding-left: 2rem;
+      margin-bottom: 0.5rem;
+  }
+  
+  #select-paragraph{
+    margin:0px;
+  }
+  
+  
+  .form-div {
+      display: block;
+      margin: 0 auto 1.25rem auto;
+      padding: 0.25rem;
+  }
+  
+  input, select{
+      margin: 0px 0px 0px 1.8rem;
+      font-family: inherit;
+      font-size: inherit;
+      line-height: inherit;
+      padding: 5px 0px;
+      width: 94%;
+      text-align: start;
+      letter-spacing: normal;
+      word-spacing: normal;
+      text-transform: none;
+      text-indent: 10px;
+      text-shadow: none;
+  }
+
+  #Strongest-label{
+    
+    padding: 0px 0px 0.1rem 0px;
+    margin:0px 0px 0.1rem 0px;
+    padding-left:0.6em;
+    text-align: center;
+  }
+
+  .input-radio, .input-checkbox {
+    align-items: flex-start;
+    transform: scale(1.4); 
+    margin:-1px 0px 1px 0px;
+    width:10%;
+    
+}
+
+#StrongestParagraph,.CheckBoxParagraph{
+    font-size: 1.4rem;
+    padding: 0px;
+    padding-left:1.7em;
+}
+
+.input-textarea{
+  width: 90%;
+  margin-left:1.6em;
+  font-size: 1.4rem;
+  border: solid;
+  height:7rem;
+  overflow-y: scroll;
+  border-width:0.3rem;
+}
+
+.submit-button{
+  width:92%;
+  margin-left:1.65em;
+  font-size: 1.4rem;
+  background-color:blueviolet;
+  color: white;
+  display: block;
+  
+  padding: 0.75rem;
+  border-radius: 2px;
+  cursor: pointer;
+
+}

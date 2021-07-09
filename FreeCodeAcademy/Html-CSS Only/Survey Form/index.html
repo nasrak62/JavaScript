@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header border-radius">
+          <h1 id="title" class="SeeText CenterText">Favorite Anime Survey</h1>
+          <p id="description" class="SeeText CenterText">here i will help you to choose your next anime</p>
+        </header>
+      
+        <main id="main" class="border-radius">
+          <form id="survey-form">
+            <div class="form-div">
+              <label id="name-label" for="name" class="SeeText">Name:</label>
+              <input id="name" type="text" class="border-radius" required placeholder="Enter Your Name"/>
+              
+      
+            </div>
+            <div class="form-div">
+              <label id="email-label" for="email" class="SeeText">Email:</label>
+              <input id="email" type="email" class="border-radius" required placeholder="Enter Your Email"/>
+      
+            </div>
+            
+            <div class="form-div">
+              <label id="number-label" for="number" class="SeeText">Number Of Animes:</label>
+              <input id="number" type="number" class="border-radius" required min="0" max="1000000" placeholder="How Many Animes Have You Seen?"/>
+      
+            </div>
+            
+            <div class="form-div">
+              <p id="select-paragraph"class="SeeText">What Is Your Favorite Style:</p>
+              <select id="dropdown" name="anime-style" class="form-control" required="">
+              <option disabled="" selected="" value="">Select style</option>
+              <option value="student">Shonen Jump</option>
+              <option value="job">Romance</option>
+              <option value="learner">Bromance &#128530;</option>
+              <option value="preferNo">Hero Acadmy</option>
+              <option value="other">Other</option>
+            </select>
+      
+            </div>
+
+            <div class="form-div">
+                <p id="StrongestParagraph" class="SeeText">The Strongest Anime Character?</p>
+                <label id="Strongest-label" for="number" class="SeeText">
+                    <input name="StrongestCharacter" value="All Might" type="radio" class="input-radio" checked="">
+                    All Might
+                </label>
+
+                <label id="Strongest-label" for="number" class="SeeText">
+                  <input name="StrongestCharacter" value="Goku" type="radio" class="input-radio" checked="">
+                  Goku
+                </label>
+
+                <label id="Strongest-label" for="number" class="SeeText">
+                  <input name="StrongestCharacter" value="Saitama" type="radio" class="input-radio" checked="">
+                  Saitama
+                </label>
+
+                <label id="Strongest-label" for="number" class="SeeText">
+                  <input name="StrongestCharacter" value="Itachi" type="radio" class="input-radio" checked="">
+                  Itachi
+                </label>
+
+                <label id="Strongest-label" for="number" class="SeeText">
+                  <input name="StrongestCharacter" value="Aizen" type="radio" class="input-radio" checked="">
+                  Aizen
+                </label>
+                
+            </div>
+
+            <div class="form-div">
+              <p class="SeeText CheckBoxParagraph">Things That Make A Good Anime:</p>
+              <label class="SeeText">
+                <input name="prefer" value="Screaming Hero" type="checkbox" class="input-checkbox SeeText">
+                Screaming Hero
+              </label>
+              <label class="SeeText">
+                <input name="prefer" value="Cool Rival And Best Friend With Bad Attitude" type="checkbox" class="input-checkbox SeeText">
+                Cool Rival And Best Friend With Bad Attitude
+              </label>
+              <label class="SeeText">
+                <input name="prefer" value="Dumb Main Character" type="checkbox" class="input-checkbox SeeText">
+                Dumb Main Character
+              </label>
+              <label class="SeeText">
+                <input name="prefer" value="Hentai Weird Stuff" type="checkbox" class="input-checkbox SeeText">
+                Hentai Weird Stuff
+              </label>
+              <label class="SeeText">
+                <input name="prefer" value="Villan With Sad Story" type="checkbox" class="input-checkbox SeeText">
+                Villan With Sad Story
+              </label>
+           
+      
+            </div>
+
+            <div class="form-div">
+              <p class="SeeText CheckBoxParagraph">Any comments or suggestions?</p>
+              <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..."></textarea>
+            </div>
+            <div class="form-div">
+              <button type="submit" id="submit" class="submit-button">
+                Submit
+              </button>
+            </div>
+            
+            
+          </form>
+        </main>
+      </div>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
